@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Recipes</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Poppins|Roboto+Mono|Uncial+Antiqua|ZCOOL+QingKe+HuangYou&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="recipes.css">
+
+</head>
+<body>
+    <nav class = "navbar navbar-expand-lg navbar-dark row">
+        <a class="navbar-brand"><img class="d-inline-block align-center" src="C:\Users\Abena\Documents\WEB DIV\chef101\chef.svg"  width="60" height="60"  alt="">
+       Chef <em>101</em></a>   
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+      </button>
+           <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+              <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" href="chef101.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="recipes.html">Recipes</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="videos.html">Video</a>
+                </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input id="searchInput" class="form-control mr-sm-2" type="search" placeholder="" aria-label="Search">
+                <button id="searchBtn" class="btn btn-light" type="submit">Search</button>
+              </form>
+          </div> 
+   </nav>
+   <nav class=" navbar navbar-expand-lg navbar-light blanknav">
+       <p id="navtext" >50% discount on the chef 101 cookbook!</p>
+
+   </nav>
+   <div class="container recipes">
+       <h1 align = "center">recipes</h1>
+       <br>
+       <h4>Explore recipes by</h4>
+       <div class="btn-group">
+        <button type="button" class="btn btn-outline-dark dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Explore
+        </button>
+        <div class="dropdown-menu dropdown-menu-right">
+          <button class="dropdown-item" type="button">Breakfast and brunch</button>
+          <button class="dropdown-item" type="button">Desserts</button>
+          <button class="dropdown-item" type="button">Cocktails</button>
+        </div>
+      </div>
+
+
+      <div class="row row-cols-1 row-cols-md-2">
+        <div class="col mb-4">
+          <div class="card">
+            <img src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2000&q=100" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-title">Oreo cookie sandwiches</p>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <a class="watch" href="videos.php?src=https://www.youtube.com/embed/iAlKQgrGlo8">Watch tutorial</a>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <img src="https://images.unsplash.com/photo-1525351484163-7529414344d8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-title">Avocado toast with sunny side-up egg </p>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <a class="watch" href="videos.php?src=https://www.youtube.com/embed/HjfKnH7jucw">Watch tutorial</a>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <img src="https://images.unsplash.com/photo-1551106652-a5bcf4b29ab6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-title"> chocolate-coated donuts with sprinkles</p>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+              <a class="watch" href="videos.php?src=https://www.youtube.com/embed/JWEzDZIzF7g">Watch tutorial</a>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <img src="https://images.unsplash.com/photo-1476887334197-56adbf254e1a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-title">Blueberry pie</p>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <a class="watch" href="videos.php?src=https://www.youtube.com/embed/S-m8ttdfQuw">Watch tutorial</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- second one -->
+      <div class="row row-cols-1 row-cols-md-2">
+        <div class="col mb-4">
+          <div class="card">
+            <img src="https://images.unsplash.com/photo-1546171753-97d7676e4602?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-title">Mint mojito</p>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <a class="watch" href="videos.php?src=https://www.youtube.com/embed/_9v34KLET0g">Watch tutorial</a>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <img src="https://images.unsplash.com/photo-1519676867240-f03562e64548?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-title"> Zesty Pancake with icing</p>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <a class="watch" href="videos.php?src=https://www.youtube.com/embed/8ttSBO0SnsU">Watch tutorial</a>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <img src="https://images.unsplash.com/photo-1556855810-ac404aa91e85?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-title">Magarita</p>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+              <a  class="watch" href="videos.php?src=https://www.youtube.com/embed/lNwNvq8Kxl8">Watch tutorial</a>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <img src="https://images.unsplash.com/photo-1503647869191-8eb843e92c0e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-title">Croissant Bread </p>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <a class="watch" href="videos.php?src=https://www.youtube.com/embed/tzSEfVdxRDw">Watch tutorial</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- third one -->
+      <div class="row row-cols-1 row-cols-md-2">
+        <div class="col mb-4">
+          <div class="card">
+            <img src="https://images.unsplash.com/photo-1547595429-da06b6a5080a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-title">Virgin mojito</p>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <a class="watch" href="videos.php?src=https://www.youtube.com/embed/-XkL4zRCmtA">Watch tutorial</a>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <img src="https://images.unsplash.com/photo-1572802419224-296b0aeee0d9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-title">Double patty cheeseburger</p>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <a class="watch" href="videos.php?src=https://www.youtube.com/embed/_udse6xCxjA">Watch tutorial</a>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <img src="https://images.unsplash.com/photo-1562967914-608f82629710?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-title">Fried chicken with dip</p>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+              <a class="watch" href="videos.php?src=https://www.youtube.com/embed/Kosa_bD2ztY">Watch tutorial</a>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <img src="https://images.unsplash.com/photo-1568096889942-6eedde686635?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-title">Ramen</p>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <a class="watch" href="videos.php?src=https://www.youtube.com/embed/iAlKQgrGlo8">Watch tutorial</a>
+            </div>
+          </div>
+        </div>
+      </div>
+   </div>
+
+
+
+
+
+
+     
+     
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-lg-5">
+       <div class="row">
+         <div class="col-lg-6">
+            <img  class="icon2"src="C:\Users\Abena\Documents\WEB DIV\chef101\chef.svg" alt="">
+         </div>
+       <div class="col-lg-6">
+       <p align="left" class="icon2txt">Chef 101</p>
+
+       <a  href="chef101.html">Home</a>
+        <br>
+        <a href="recipes.html">Recipes</a>
+         <br>
+        <a href="videos.html">Video</a>
+        <br>
+       </div>
+      </div>
+     </div>
+        <div class="col-lg-7 newsletter">
+          <h3>Subscribe too our weekly newsletter!</h3>
+          <h3>pssst!! more healthy tips availble to our suscribers</h3>
+          <div class="row">
+           
+              <div class="form-inline">
+                <div class="col-12">
+                <div class="form-group">
+                    <label for="Name"></label>
+                    <input type="text" class="form-control" id="Name" placeholder="Jane Doe">
+                </div>
+                <br>
+                </div>
+                <div class="col-12">
+                <div class="form-group">
+                  <label for="Email"></label>
+                  <input type="email" class="form-control" id="Email" placeholder="Chef101@gmail.com">
+                </div>
+                <br>
+                </div>
+                <div class="col-12">
+                <button type="submit" class="btn btn-dark">Subscribe</button>
+                </div>
+              </form>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  
+  <script src="chef101.js"></script>
+</body>
+</html>

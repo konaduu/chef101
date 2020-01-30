@@ -1,0 +1,49 @@
+.navbar{
+    background-color:#0f4c75; 
+   color: white;
+   margin-bottom: 35px;
+
+}
+.navbar-brand{font-size: 25px; 
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+
+
+body{
+    background-color: #f9f6f7;
+}
+
+
+.container-fluid{
+    background-color:#0f4c75;
+    color:white;
+   
+}
+
+.icon2{
+    height:250px;
+    padding:20px;
+}
+
+.icon2txt{
+    padding-top:40px;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    font-size: 50px;
+}
+
+
+.blanknav{
+    background-color: #3282b8;
+    margin-top: -38px;
+}
+
+#navtext{
+    margin-left: 40%;
+    margin-bottom: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.newsletter{
+    margin-top: 45px ;
+}
