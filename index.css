@@ -113,17 +113,14 @@ h5{
 h3{
     font-family: 'Roboto Mono', monospace;
     font-weight: lighter;
+    font-size: 20px;
 }
 
 .user{
     height:30px;
-    padding-left: 20px;
     padding-right: 5px;
 }
+
 #searchBtn{
     height:30px;
-    background-color:#0f4c75;
-    opacity: 0.5;
-    /* padding-left: 20px;
-    padding-right: 5px; */
 }

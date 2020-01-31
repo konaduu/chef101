@@ -47,3 +47,13 @@ body{
 .newsletter{
     margin-top: 45px ;
 }
+
+.user{
+    height:5px;
+    /* padding-right: 5px; */
+}
+#searchBtn{
+    height:10px; 
+}
+
+

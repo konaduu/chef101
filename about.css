@@ -1,0 +1,97 @@
+    .jumbotron{
+        width: 100%;
+    }
+
+    .navbar{
+        background-color:#0f4c75; 
+    color: white;
+    margin-bottom: 35px;
+
+    }
+    .navbar-brand{font-size: 25px; 
+        font-family: 'ZCOOL QingKe HuangYou', cursive;
+    }
+
+
+    .container-fluid{
+        background-color:#0f4c75;
+        color:white;
+        margin-top: 50px;
+    
+    }
+
+    .icon2{
+        height:250px;
+        padding:20px;
+    }
+
+    .icon2txt{
+        padding-top:40px;
+        font-family: 'ZCOOL QingKe HuangYou', cursive;
+        font-size: 50px;
+    }
+
+    body{
+        background-color: #f9f6f7;
+    }
+
+
+    .blanknav{
+        background-color: #3282b8;
+        margin-top: -38px;
+    }
+
+    #navtext{
+        margin-left: 40%;
+        margin-bottom: 5px;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    a{
+        color:white;
+        font-family: 'Roboto Mono', monospace;
+    }
+
+    .newsletter{
+        margin-top: 45px ;
+        margin-bottom: 50px;
+    }
+
+    p{
+        font-family: 'Poppins', sans-serif;
+    }
+
+    h5{
+        font-family: 'Poppins', sans-serif;
+        font-weight: bolder;
+    }
+
+    .user{
+        height:30px;
+        padding-right: 5px;
+    }
+
+    #searchBtn{
+        height:30px;
+    }
+
+     .about{
+        height: 500px;
+        background-image: url("https://images.unsplash.com/photo-1545659531-9a66f06e260a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80");
+        width: 100%;
+        margin-bottom: 50px;
+        margin-top: -40px;
+    } 
+    h4{font-family: 'ZCOOL QingKe HuangYou', cursive;
+        margin-bottom: 25px;
+        font-size: 75px;
+
+    }
+
+    h3{
+        font-family: 'Roboto Mono', monospace;
+        font-weight: lighter;
+        font-size: 20px;
+    }
+
+    

@@ -12,30 +12,34 @@
 
 </head>
 <body>
-    <nav class = "navbar navbar-expand-lg navbar-dark row">
-        <a class="navbar-brand"><img src="C:\Users\Abena\Documents\WEB DIV\chef101\chef.svg"  width="60" height="60" class="d-inline-block align-center" alt="">
-       Chef <em>101</em></a>   
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-      </button>
-           <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-              <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link" href="chef101.html">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="recipes.html">Recipes</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="videos.html">Video</a>
-                </li>
-              </ul>
-              <form class="form-inline my-2 my-lg-0">
-                <input id="searchInput" class="form-control mr-sm-2" type="search" placeholder="" aria-label="Search">
-                <button id="searchBtn" class="btn btn-light" type="submit">Search</button>
-              </form>
-          </div>      
-   </nav>
+<nav class = "navbar navbar-expand-lg navbar-dark row">
+          <a class="navbar-brand">
+            <img class="d-inline-block align-center" src="chef.svg"  width="60" height="60"  alt="">
+            Chef <em>101</em>
+          </a>   
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+        </button>
+             <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="recipes.html">Recipes</a>
+                  </li>
+                  <!-- <li class="nav-item">
+                    <a class="nav-link" href="videos.php">Video</a>
+                  </li> -->
+                </ul>
+                
+                <img class="form-inline my-2 my-lg-0">
+                  <input id="searchInput" class="form-control mr-sm-2" type="search" placeholder="" aria-label="Search">
+                  <!-- <button type="submit"  class="btn btn-outline"><img src="image\searching-magnifying-glass.svg" alt="" id="searchBtn"></button>
+                </form>
+                <a href="about.html"><img class ="user" src="image\user.svg" alt=""></a> -->
+            </div>      
+     </nav>
    <nav class=" navbar navbar-expand-lg navbar-light blanknav">
        <p id="navtext" >50% discount on the chef 101 cookbook!</p>
 
@@ -46,19 +50,20 @@
       <iframe  id ="video" class="col-12" height="750" src="<?php echo $_GET['src'];?>" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
   </div>
-
+<br>
+<br>
  
   <div class="container-fluid">
         <div class="row">
          <div class="col-lg-5">
            <div class="row">
              <div class="col-lg-6">
-                <img  class="icon2"src="C:\Users\Abena\Documents\WEB DIV\chef101\chef.svg" alt="">
+                <img  class="icon2"src="chef.svg" alt="">
              </div>
            <div class="col-lg-6">
            <h5 align="left" class="icon2txt">Chef 101</h5>
 
-           <a  href="chef101.html">Home</a>
+           <a  href="index.html">Home</a>
             <br>
             <a href="recipes.html">Recipes</a>
              <br>
